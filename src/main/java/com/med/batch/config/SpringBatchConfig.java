@@ -23,7 +23,7 @@ import org.springframework.core.task.TaskExecutor;
 @Configuration
 @EnableBatchProcessing
 @AllArgsConstructor
-public class SpringBatchConfig {
+public class SpringBatchConfig { // spring batch config
 
     private JobBuilderFactory jobBuilderFactory;
 
